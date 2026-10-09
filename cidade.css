@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+#fundo{
+    position: relative;
+    z-index: -99;
+    width: 100%;
+    height: 100vh;
+}
+.fundo{
+    width: 100%;
+}
+#casa{
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    left: 41.5%;
+    top: 0%;
+}
+#escola{
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    left: 150px;
+    top: 120px;
+}
+#museu{
+    width: 370px;
+    height: 370px;
+    position: absolute;
+    left: 1350px;
+    top: 100px;
+}
+#trabalho{
+    position: absolute;
+    left: 150px;
+    top: 520px;
+}
+#biblioteca{
+    width: 420px;
+    height: 420px;
+    position: absolute;
+    left: 1350px;
+    top: 520px;
+}
+.botao{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+}
+.botao:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+#btnRelogio{
+    cursor: pointer;
+    background: none;
+    border: none;
+    position: absolute;
+    left: 45.8%;
+    top: 40%;
+}
+#relogio{
+    height: 180px;
+}
+.fundo {
+  transition: filter 0.1s;
+}
+
+.fundo.noite {
+  filter: brightness(0.55) sepia(0.5) hue-rotate(10deg) saturate(1.1);
+}

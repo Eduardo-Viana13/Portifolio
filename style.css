@@ -1,0 +1,22 @@
+*{
+    margin: 00;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(FundoInicio.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 10rem;
+    overflow: hidden;
+}
+.botao{
+    width: 300px;
+    height: 175px;
+}
+.botao:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
